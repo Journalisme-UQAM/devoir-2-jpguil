@@ -66,8 +66,8 @@ for ligne in lignes:
       #Sinon, c'est une thèse. 
   else:
          genre = "La thèse"
-         
+        
   #Je print avec le format demandé dans les consignes du travail.
   print("{} de {} compte {} pages. Son titre est {} ({} caratères).".format(genre,nom,sum,titre,longTitre))
   
-  #Pour une raison que j'ignore, mais que je soupçonne en lien avec la "priorité des opérations" de ma loop, mon script ne fonctionne pas très bien pour le "genre" de document jusqu'à une centaine de ligne et ensuite tout va bien...
+  #Pour une raison que j'ignore, mais que je soupçonne en lien avec la "priorité des opérations" de ma loop, mon script ne fonctionne pas très bien pour le nombre de page de la première ligne...
